@@ -1,0 +1,17 @@
+.nav-container{
+    width: 1440px;
+    height: 715px;
+    border: 2px solid red;
+    background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+.nav-content{
+    width: 1060px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    margin: 0 auto;
+    
+}
