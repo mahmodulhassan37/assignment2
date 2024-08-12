@@ -49,3 +49,128 @@
     margin: 0px 10px;
     
 }
+.banner-content{
+    max-width: 1060px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    margin: 0 auto;
+
+}
+.banner-txt{
+    max-width:599.05px;
+    height: 440px;
+    left: 190px;
+    top: 199px;
+    margin-bottom: 80px;
+
+}
+.banner-h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    
+}
+#bannertext-miama{
+    font-family: 'Miama',sans-serif;
+    font-size: 120px;
+    font-weight: 400;                                              
+}
+.banner-paragraph{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.banner-btn{
+    width: 224px;
+    height: 54px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+
+}
+.banner-picture{
+    max-width: 349px;
+    height: 580px;
+    left: 877px;
+    top: 135px;
+    
+}
+.banner-picture img{
+    width: 100%;
+    position: relative;
+}
+.icon{
+
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.plus{
+    width: 68px;
+    height: 24px;
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.tutorial{
+    width: 108px;
+height: 24px;
+color: rgba(239, 237, 232, 0.65);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+.videotag{
+    width: 206px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+.videotag1{
+    width: 180px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    top: 30%;
+    left: 75%;
+
+}
