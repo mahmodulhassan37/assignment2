@@ -1,6 +1,6 @@
 .nav-container{
-    max-width:1520px;
-    height: 715px;
+    max-width:1500px;
+    min-width: fit-content;
     border: 2px solid red;
     background-image: linear-gradient(to bottom, #040404, #101011, #181919, #202021, #272829, #272829, #272829, #272829, #202021, #191919, #111111, #050505);
 }
@@ -11,7 +11,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
     margin: 0 auto; 
 }
 .left-nav h1 {
@@ -55,13 +54,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
     margin: 0 auto;
 
 }
 .banner-txt{
     max-width:599.05px;
-    height: 440px;
+    height: fit-content;
     left: 190px;
     top: 199px;
     margin-bottom: 80px;
@@ -135,7 +133,7 @@
     text-align: left;
 }
 .tutorial{
-    width: 108px;
+    max-width: 108px;
 height: 24px;
 color: rgba(239, 237, 232, 0.65);
 font-family: Inter;
@@ -156,11 +154,11 @@ text-align: left;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 55%;
 }
 .videotag1{
-    width: 180px;
+    width: 206px;
     height: 96px;
     display: flex;
     flex-direction: row;
@@ -170,7 +168,7 @@ text-align: left;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 75%;
 
 }
