@@ -325,3 +325,84 @@ margin: 41px 54px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
 }
+
+.train-container h1{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 2px;
+}
+.train-container p {
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+margin-top: auto;
+}
+.train-container{
+    width: 1060px;
+    height: 581px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 14;
+padding: 0px;
+margin-top: 40px;
+margin-bottom: 40px;
+border: 2px solid red;
+}
+.train-img-container{
+    width: 1060px;
+height: 581px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20;
+}
+
+.train-image-content {
+    max-width: 1060px;
+    display: grid;
+    grid-template-areas: 
+    "a b c"
+    "d e f";
+    
+    
+    
+}
+.tran-image-1{
+    grid-area: a;
+}
+.tran-image-2{
+    grid-area: b;
+    
+}
+.tran-image-3{
+    grid-area: c;
+}
+.tran-image-4{
+    grid-area: d;
+}
+.tran-image-5{
+    grid-area: e;
+}
+.tran-image-6{
+    grid-area: f;
+}
+.img1{
+    width: 323px;
+    height: 218px;
+}
+.train-image-content img {
+    width: 100%;
+    height: 100%;
+}
